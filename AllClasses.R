@@ -1,0 +1,3 @@
+setClass("PMset", representation=representation(files="list", idField="character",organisms="list", time="numeric", timeStep="numeric",plateTypes="list", replicates="numeric", wellNames="vector", plates="list"))
+
+setClass("PlateFrame", representation(dataFile="character", replicateTag="character", setupTime="character", pos="character", plateType="character", strainType="character", sampleNumber="character", strainName="character", strainNumber="character", other="character", data="data.frame"))
